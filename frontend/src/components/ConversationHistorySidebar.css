@@ -1,0 +1,33 @@
+.sidebar-history {
+    position: block;
+    right: 0;
+    top: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+
+.conversation-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.conversation-item {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.user-query, .sql-query {
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}

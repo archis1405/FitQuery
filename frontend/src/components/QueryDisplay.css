@@ -1,0 +1,67 @@
+Make the container fill the screen
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.query-display {
+  height: 100px;
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.custom-datagrid .MuiDataGrid-root::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.custom-datagrid .MuiDataGrid-root {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Optional: Ensure the table doesn't overflow */
+.custom-datagrid .MuiDataGrid-root {
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Ensure the webpage is not scrollable */
+html, body {
+  overflow: hidden;
+}
+
+/* Style the container for the DataGrid */
+.custom-datagrid {
+  height: 500px; /* Set a fixed height for the DataGrid */
+  width: 100%; /* Set width of DataGrid */
+  overflow: auto; /* Make DataGrid scrollable */
+}
+
+/* Optional styling to add padding or margin around the query and result sections */
+.query-section {
+  margin-bottom: 20px;
+}
+
+.result-section {
+  height: 100px;
+  width: 100%; /* Ensure the DataGrid takes up full width */
+}
+
+/* Scroll Bar Customization */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #bdc3c7; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2980b9; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2980b9; 
+}

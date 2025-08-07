@@ -1,0 +1,7 @@
+fastapi[all]
+faker
+decouple-python
+sentence-transformers
+pydantic
+mysql-connector-python
+openai
