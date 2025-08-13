@@ -34,14 +34,15 @@ def demoRun():
 
     ################## Uncomment the Code below when running First time to create Database and Embeddings ##################
 
-    # obj = CreateSyntheticData()
-    # obj.executor()
-    # embedObj = Embeddings()
-    # embedObj.embedding_executor()
-    # return {"Message" : "Embeddings have been generated and stored in DB"}
+     obj = CreateSyntheticData()
+     obj.executor()
+     embedObj = Embeddings()
+     embedObj.embedding_executor()
+     return {"Message" : "Embeddings have been generated and stored in DB"}
 
     ########################################################################################################################
-    return "Database and Embeddings already generated!"
+    # UNCOMMENT THE CODE BELOW WHEN YOU WANT TO REGENERATE THE EMBEDDINGS AND DATABASE
+    #return "Database and Embeddings already generated!"
 
 
 
